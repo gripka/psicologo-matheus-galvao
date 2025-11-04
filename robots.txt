@@ -1,0 +1,10 @@
+# https://matheusngalvao.com.br/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://matheusngalvao.com.br/sitemap.xml
+
+# Disallow admin areas (se houver)
+# Disallow: /admin/
