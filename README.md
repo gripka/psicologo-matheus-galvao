@@ -112,7 +112,3 @@ Este site pode ser hospedado em:
 ## 📄 Licença
 
 Este projeto foi desenvolvido para uso pessoal de Matheus Nogueira Galvão - Psicólogo CRP 11/16375.
-
-## 👨‍💻 Desenvolvido por
-
-Landing page criada com ❤️ para atendimento online em psicologia.
