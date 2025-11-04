@@ -458,6 +458,10 @@ section {
     will-change: transform;
     cursor: grab;
     user-select: none;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .carousel-track:active {
@@ -480,6 +484,8 @@ section {
     box-shadow: 0 5px 15px var(--shadow);
     transition: all 0.3s ease;
     overflow: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .carousel-placeholder:hover {
@@ -701,11 +707,12 @@ section {
     }
 
     .subtitle {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        padding: 0 10px;
     }
 
     .subtitle strong {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         margin-top: 5px;
     }
 
@@ -782,5 +789,13 @@ section {
 
     .carousel-btn-next {
         right: 5px;
+    }
+}
+
+/* Ajuste específico para resoluções entre 380px e 396px */
+@media (min-width: 380px) and (max-width: 396px) {
+    .subtitle {
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 }
