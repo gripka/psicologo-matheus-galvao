@@ -407,8 +407,8 @@ section {
 
 /* Carousel Section */
 .carousel-section {
-    background: var(--bg-white);
-    padding: 60px 0;
+    background: var(--bg-light);
+    padding: 0px 0;
     overflow: hidden;
 }
 
